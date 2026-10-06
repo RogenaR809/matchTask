@@ -1,5 +1,5 @@
 const weatherkey = `240481d807e0484dae0130212262909`
-const weatherurl = ` http://api.weatherapi.com/v1/current.json?key=${weatherkey}&q=Paris`
+const weatherurl = ` https://api.weatherapi.com/v1/current.json?key=${weatherkey}&q=Paris`
 console.log(weatherurl)
 async function loadwheather() {
     const response = await fetch(weatherurl)
